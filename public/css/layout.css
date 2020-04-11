@@ -1,0 +1,87 @@
+/*CONTAINER*/
+
+.container {
+  max-width: 1050px;
+}
+
+/*HEADER TOP*/
+
+header #header-top {
+  background: #000;
+    padding: 19px 0;
+}
+
+#header-top .logo {
+    width: 30%;
+    height: auto;
+}
+
+#header-top .logo img {
+    width: 100%;
+    height: 100%;
+}
+
+/*HEADER NAV*/
+
+.navbar {border-radius: 0;background: #480f15;}
+.navbar i {margin-left: 5px;}
+.navbar li a {color: #ddd !important;font-family: Koulen, Arial, Helvetica, sans-serif !important;font-size: 15px;}
+.navbar li:hover a {background: #2A0D10 !important;}
+.navbar li.dropdown:hover a {}
+.active a {background: #2A0D10 !important;}
+.navbar .dropdown .dropdown-menu {background: #480f15 !important;padding: 0;}
+.navbar .dropdown .dropdown-menu a {padding: 10px 10px;}
+.navbar .dropdown .dropdown-menu a:hover {background: #480f15 !important;}
+.navbar-collapse {padding-left: 0;}
+nav .navbar-toggle {background: #480f15;border: none;} 
+nav .navbar-toggle:hover {background: #480f15 !important;} 
+
+/*FEATURED POST*/
+
+#body-wrapper {
+    margin: 19px 0;
+}
+/*ADS*/
+
+.ads-next-top-logo {
+    text-align: right;
+    padding-top: 5px;
+}
+
+.ads-next-top-logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.ads-next-top-featured-post {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.ads-next-top-featured-post img {
+    width: 100%;
+    height: 100%;
+}
+/*FOOTER*/
+
+body > footer {
+    background: #000;
+    padding: 19px 0;
+    font-family: Battambang, Arial, Helvetica, sans-serif !important;
+}
+body > footer {color: #ddd}
+body > footer a {color: #999; font-weight: normal !important;}
+body > footer a:hover {text-decoration:underline;color: #ddd;}
+body > footer ul {list-style-type: none;padding-left: 0;  }
+body > footer ul li {padding: 5px 0;font-size: 15px;font-weight: normal !important;}
+body > footer h3 {margin: 0;margin-bottom: 15px; font-family: Koulen, Arial, Helvetica, sans-serif !important;font-size: 18px;}
+body > footer .contact-us p {margin-top: 15px;}
+body > footer .contact-us i {margin-right: 10px;}
+body > footer .social ul li {display: inline-block;font-size: 34px;margin-left: 10px; }
+body > footer .social ul li:first-child {margin-left: 0;}
+body > footer .social ul li:hover {transition: 0.5s all linear;}
+body > footer .footer-bottom {border-top: 1px solid #111;padding-top: 19px;}
+
+
+
